@@ -1,0 +1,19 @@
+.dashboard {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     */
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 20rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboardHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 3rem 1rem; */
+    width: 100%;
+}

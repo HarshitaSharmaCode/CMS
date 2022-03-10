@@ -1,0 +1,28 @@
+/* const styleObj = {
+    fontSize: 15,
+    fontWeight: 'bold',
+    paddingTop: "15px",
+    border: 'none',
+} */
+
+.pgFragment{
+    display: inline;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.pgnumber{
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.arrow{
+    width: 24px;
+    height: 24px;
+}
+
+.button{
+    border: none;
+    background-color: transparent;
+}

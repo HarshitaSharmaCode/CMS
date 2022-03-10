@@ -1,0 +1,106 @@
+/* Campaign Fragment */
+
+
+.fragmentCampaign{
+  display: flex;
+  flex-direction: column;
+  padding: 8rem 20rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Campaign Head: Title, SearchField*/
+
+.campaignshead{
+  display: grid;
+  grid-template-columns: 5.8fr 2fr 3fr;
+  grid-gap: 10px;
+  padding-bottom: 11px;
+  align-items: center;
+}
+
+/* Search Field */
+.campaignshead form{
+  display: flex;
+  border: 0.3px solid rgb(207, 207, 207);
+  height: 43px;
+  width: 261px;
+}
+
+.campaignshead form input { 
+  width: 100%;
+  padding: 5px 50px 5px 10px;
+  border: none;
+  outline: none; 
+}
+
+.campaignshead form button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -33px;
+}
+
+.campaignshead form button img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+/* container: ContainerList */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 1rem;
+  width: 100%;
+}
+
+/* container list */
+.container ul{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 2rem;
+  margin-left: 22px;
+  margin-bottom: 10px;
+}
+
+.container ul li{  
+  list-style: none;
+  font-size: 10px;
+}
+
+.container ul button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  margin-left: -33px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: black;
+  padding: 0px 10px;
+  margin-right: 35px;
+}
+
+.container ul button img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+
+.container ul button:hover{
+  color: #15697c;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0px 10px;
+  text-decoration: #15697c;
+  }

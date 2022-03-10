@@ -1,0 +1,75 @@
+/* Css Reset */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Navigation Bar */
+.navbar{
+  display: grid;
+  grid-template-columns: 0.5fr 8fr 0.7fr 0.3fr;
+  grid-gap: 0px;
+  padding-bottom: 11px;
+  /* display: flex; */
+  align-items: center;
+  background-color: #163d46;
+  color: white;
+}
+
+.navbar{
+  position: relative;
+  top: 4rem;
+  left: 10%;
+  right: 10%;
+  height: 50px;
+  align-items: center;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.navbar::before{
+  content: "";
+  background-color: #163d46;
+  position: absolute;
+  height: 100%;
+}
+
+
+/* Navigation Bar: Logo and Image */
+.logo{
+  margin: 5px 27px;
+}
+
+.logo img{
+  height: 48px;
+  margin: 2px 2px;
+  border-radius: 50px;
+}
+
+
+/* Navigation Bar: List Styling */
+.navbar ul{
+  display: flex;
+}
+
+.navbar ul li{
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+.navbar ul li button{
+  display: block;
+  padding: 3px 22px;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.navbar ul li button:hover{
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  /* text-decoration:underline; */
+  color: #bddde4;
+}

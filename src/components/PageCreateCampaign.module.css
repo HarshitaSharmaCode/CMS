@@ -1,0 +1,70 @@
+.Fragment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-left: 25%; */
+    margin-left: 10%;
+    margin-right: 25%;
+    margin-top: 4rem;
+    /* height: 200%; */
+    /* width: 50%; */
+    width: 80%;
+    padding: 5px 5px 5px 5px;
+    border-radius: 8px;
+    border: 1.3px solid black;
+}
+
+.Tofield{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 15px;
+
+}
+
+.Tofield label{
+    height: 25px;
+    width: 200px;
+    font-size: 15px;
+}
+
+.Tofield select{
+    width: 200px;
+    height: 25px;
+}
+
+.Fromfield{
+    display: flex;
+    flex-direction: column;
+}
+
+.MainFromfield{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.Buttonfield{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Buttonfield button{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: #15697c;
+    color: white;
+    padding: 5px 5px;
+    align-items: center;
+    border-radius: 3px;
+    font-weight: bold;
+    width: 150px;
+    height: 35px;
+}
+
+.Buttonfield input:hover,
+.Buttonfield input:active{
+    background-color: #1e7894;
+}

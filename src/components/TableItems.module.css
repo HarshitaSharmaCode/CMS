@@ -1,0 +1,19 @@
+.trow{
+    display: table-row;
+    width: 100%;
+    border-collapse: collapse;
+    border: 0.3px solid rgb(207, 207, 207);
+    text-align: center;
+    /* height: 25px; */
+    line-height: 15px;
+  }
+  .button{
+    width: 4px;
+    height: 4px;
+    border: none;
+    margin: 5px 33px 5px 5px;
+    padding-top: 5px;
+    background: transparent;
+    object-fit: cover;
+    cursor: pointer;
+  }
